@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Volkhov|Rammetto+One');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	background-color: #00BF9A;
+}
+header h1{
+	text-align: center;
+	font-family: 'Rammetto One', cursive;
+	font-size: 3.5em;
+	color: white;
+	padding: 0.5%;
+}
+header h1 i
+{
+	color: #1a8cff;	
+}
+#wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+section{
+	text-align: center;
+	font-family: 'Volkhov', serif;
+}
+section h2{
+	font-size: 3.9em;
+	text-decoration: underline;
+	color: #263238;
+}
+section p{
+	font-size: 2em;
+	color: #263238;
+}
+.bild-kontainer{
+	text-align: center;
+}
+#vaederBild{
+	width: 10%;
+}
+.info{
+	text-align: center;
+}
+.info i{
+	color: #00BCD4;
+}
+.info p{
+	display: none;
+}
+.info p{
+	display: none;
+	font-family: 'Volkhov', serif;
+	font-size: 1.5em;
+	color: #999999;
+}
+.info p.aktiv{
+	display: block;
+}
+@media(max-width: 780px){
+header h1
+{
+	font-size: 3em;
+	color: white;
+}
+section h2{
+	font-size: 3.3em;
+	text-decoration: underline;
+	color: #263238;
+}
+section p{
+	font-size: 1.8em;
+	color: #263238;
+}
+.info p{
+	font-size: 1.3em;
+}
+}
+@media(max-width: 480px){
+header h1
+{
+	font-size: 2.3em;
+	color: white;
+}
+section h2{
+	font-size: 2.5em;
+	text-decoration: underline;
+	color: #263238;
+}
+section p{
+	font-size: 1.5em;
+	color: #263238;
+}
+.info p{
+	font-size: 1.1em;
+}
+}
+
+
